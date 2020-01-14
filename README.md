@@ -26,10 +26,18 @@ Things you may want to cover:
 # First
 
 Create Reservation
-![](public/create_reservation.png)
+![](public/readme/create_reservation.png)
 Show Reservation
-![](public/show_reservation.png)
+![](public/readme/show_reservation.png)
 Update Reservation
-![](public/update_reservation.png)
+![](public/readme/update_reservation.png)
 Destroy Reservation
-![](public/destroy_reservation.png)
+![](public/readme/destroy_reservation.png)
+Index Reservation
+![](public/readme/index_reservation.png)
+Signup user
+![](public/readme/signup.png)
+Login user
+![](public/readme/login.png)
+Logout user
+![](public/readme/logout.png)
