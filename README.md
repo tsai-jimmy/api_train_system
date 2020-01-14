@@ -41,3 +41,10 @@ Login user
 ![](public/readme/login.png)
 Logout user
 ![](public/readme/logout.png)
+
+Update user info
+![](public/readme/update_user.png)
+Display user info
+![](public/readme/user_info.png)
+Display user reservations
+![](public/readme/login_user_reservations.png)
