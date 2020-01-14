@@ -25,4 +25,12 @@ class Api::V1::ReservationsController < ApiController
       render :json => { :message => "订票失败", :errors => @reservation.errors }, :status => 400
     end
   end
+
+  def update
+    @reservation = Reservation.find_by_booking_code!( params[:booking_code] )
+    @reservation.update( :customer_name => params[:customer_name],
+                         :customer_phone => params[:customer_phone] )
+
+    render :json => { :message => "更新成功" }
+  end
 end
