@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_01_14_140541) do
+ActiveRecord::Schema.define(version: 2020_01_14_143559) do
 
   create_table "reservations", force: :cascade do |t|
     t.string "booking_code"
@@ -31,6 +31,7 @@ ActiveRecord::Schema.define(version: 2020_01_14_140541) do
     t.string "number"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "train_logo"
     t.index ["number"], name: "index_trains_on_number"
   end
 
